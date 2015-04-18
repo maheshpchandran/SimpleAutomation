@@ -22,7 +22,7 @@ public class HTMLReport {
 		tHtml.append("<html lang='en-US'>" + "\n");
 		tHtml.append("<head>" + "\n");
 		tHtml.append("<meta charset=utf-8>" + "\n");
-		tHtml.append("<title>SandStorm Automation Report</title>" + "\n");
+		tHtml.append("<title>Automation Report</title>" + "\n");
 		tHtml.append("</head>" + "\n");
 		tHtml.append("<body>" + "\n");
 		tHtml.append("<style type=\"text/css\">tg{border-collapse:collapse;border-spacing:0;border-color:#aabcfe;}.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#aabcfe;color:#669;background-color:#e8edff;}.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#aabcfe;color:#039;background-color:#b9c9fe;}.tg .tg-0ord{text-align:right}.tg .tg-ifyx{background-color:#D2E4FC;text-align:right}.tg .tg-s6z2{text-align:center}.tg .tg-vn4c{background-color:#D2E4FC}tg .tg-sju8{background-color:#ce6301;color:#fe0000;text-align:right}</style>");

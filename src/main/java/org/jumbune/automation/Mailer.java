@@ -37,8 +37,8 @@ public class Mailer {
 	 */
 	public static void mailme(String[] mailto, String sDocument) {
 
-		final String username = "<FILL>@gmail.com";
-		final String password = "impetus123";
+		final String username = "<FILL>";
+		final String password = "<PASS>";
 		Properties props = new Properties();
 		props.put("mail.smtp.host", "smtp.gmail.com");
 		props.put("mail.smtp.socketFactory.port", "465");
@@ -62,10 +62,10 @@ public class Mailer {
 				Message message = new MimeMessage(session);
 				MimeBodyPart htmlPart = new MimeBodyPart();
 				MimeBodyPart textPart = new MimeBodyPart();
-				message.setFrom(new InternetAddress("sandstormqa@gmail.com"));
+				message.setFrom(new InternetAddress("<FILL>"));
 				message.setRecipients(Message.RecipientType.TO,
 						InternetAddress.parse(sAddress));
-				message.setSubject("SandStorm Automation status ");
+				message.setSubject("Automation status ");
 				htmlPart.setContent(sDocument, "text/html");
 
 				
